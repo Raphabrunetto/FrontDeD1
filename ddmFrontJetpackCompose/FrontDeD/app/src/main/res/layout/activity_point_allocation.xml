@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Distribua seus pontos:"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Força: " />
+
+    <Button
+        android:id="@+id/strengthDecrease"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-" />
+
+    <TextView
+        android:id="@+id/strengthPoints"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="8" />
+
+    <Button
+        android:id="@+id/strengthIncrease"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Distribua seus pontos:"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Destreza: " />
+
+    <Button
+        android:id="@+id/destrezaDecrease"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-" />
+
+    <TextView
+        android:id="@+id/destrezaPoints"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="8" />
+
+    <Button
+        android:id="@+id/destrezaIncrease"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+" />
+
+    <!-- Repita o mesmo padrão para os outros atributos (Destreza, Constituição, etc.) -->
+
+    <Button
+        android:id="@+id/confirmPointsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirmar Pontos" />
+
+</LinearLayout>
